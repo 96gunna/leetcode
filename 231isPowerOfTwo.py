@@ -8,3 +8,4 @@ class Solution(object):
             return False
         else:
             return (n & -n) == n
+        # return (n & -n) == n and n != 0

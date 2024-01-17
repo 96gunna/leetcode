@@ -9,7 +9,7 @@ class Solution {
                 // Calculate the potential profit
                 int profit = prices[right] - prices[left];
                 // Select the larger profit between the current max and previous line
-                currMax = Math.max(currMax, profit);
+                currMax = profit > currMax ? profit : currMax;
             } else {
                 // Move left pointer over to right if left was larger than right
                 left = right;

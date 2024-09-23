@@ -1,4 +1,4 @@
-class Solution {
+class maxSubArray {
     public int maxSubArray(int[] nums) {
         // Initialize maxSum to the first position in the array
         int maxSum = nums[0];

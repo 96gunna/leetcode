@@ -1,4 +1,4 @@
-class Solution {
+class maxProfit {
     public int maxProfit(int[] prices) {
         // Initialize variables
         int left = 0, right = 1, currMax = 0;

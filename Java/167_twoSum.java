@@ -1,4 +1,4 @@
-class Solution {
+class twoSum2 {
     public int[] twoSum(int[] numbers, int target) {
         // Initialize left pointer to beginning index
         int left = 0;

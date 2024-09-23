@@ -1,4 +1,4 @@
-class Solution {
+class productExceptSelf {
     public int[] productExceptSelf(int[] nums) {
         // Create a result array with the same amount of elements as the passed nums array
         int[] result = new int[nums.length];

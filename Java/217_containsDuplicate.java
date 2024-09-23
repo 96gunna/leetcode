@@ -1,4 +1,7 @@
-class Solution {
+import java.util.HashSet;
+import java.util.Set;
+
+class containsDuplicate {
     public boolean containsDuplicate(int[] nums) {
         Set<Integer> set = new HashSet<>();
         // Loop through each number in the array

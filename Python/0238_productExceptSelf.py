@@ -1,4 +1,7 @@
 class Solution(object):
+    # First loop to calculate the prefix product
+    # A second loop to calculate the postfix product
+    # Multiplying the prefix and postfix gives the product of the list excluding the current index
     def productExceptSelf(self, nums):
         """
         :type nums: List[int]
